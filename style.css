@@ -7,17 +7,17 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 500px;
     margin: 20px auto;
-    background: white;
+    background: rgb(197, 195, 195);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 h1 {
-    color: #ff5733;
+    color: #ea654e;
 }
 
 form {
@@ -27,9 +27,8 @@ form {
 }
 
 fieldset {
-    border: 1px solid #ccc;
+    border: 1px solid #d68282;
     padding: 15px;
-    border-radius: 8px;
 }
 
 legend {
@@ -39,7 +38,9 @@ legend {
 
 label {
     display: block;
-    margin: 5px 0;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-align: center;
 }
 
 button {
