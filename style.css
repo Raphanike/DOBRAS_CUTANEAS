@@ -40,7 +40,7 @@ label {
     display: block;
     margin-bottom: 10px;
     background-color: transparent;
-    text-align: center;
+    text-align: center; /* Centraliza os labels */
 }
 
 button {
@@ -61,4 +61,29 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .container {
+        width: 90%; /* Aproveita melhor a tela */
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px; /* Reduz o tamanho do título */
+    }
+
+    form {
+        gap: 8px; /* Ajusta o espaçamento entre os campos */
+    }
+
+    fieldset {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
