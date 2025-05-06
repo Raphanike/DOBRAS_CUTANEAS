@@ -23,4 +23,5 @@ Jackson & Pollock é um método científico de avaliação da **percentual de go
 - JavaScript (puro/vanilla)
 
 ## 📁 Estrutura do Projeto
+https://fit-io.vercel.app/
 
